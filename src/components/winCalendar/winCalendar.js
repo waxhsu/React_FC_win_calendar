@@ -22,7 +22,7 @@ import listPlugin from '@fullcalendar/list'; // FullCalendar DayGrid plugin
 import googleCalendarPlugin from '@fullcalendar/google-calendar'; // FullCalendar Google Calendar plugin
 
 const googleCalendarApiKey = 'AIzaSyCNuPc8INoIhejkZ0ZpBgqxMMubNbs7Twc';
-const googleCalendarId = 'c_6ac1b95b43f0bc6b7729121b7f5eb6af644b44192b24c7cd2a648282e9d5df0d@group.calendar.google.com';
+const googleCalendarId = 'c_da135cf666ae629bc8c39bfbe7a099540d70593c448d73a9fec7cd8c3578e4ba@group.calendar.google.com';
 
 function WinCalendar() {
   useEffect(() => {
