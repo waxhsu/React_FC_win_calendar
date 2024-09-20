@@ -1,0 +1,52 @@
+@media all and (min-width: 1024px){
+  .Landing {
+    border: 4px blue solid;
+    min-height: 90vh;
+    /* max-width: 100%; */
+    overflow: hidden;
+    display: flex;
+  }
+
+  .leftLanding {
+    /* border: purple 2px solid; */
+    width: 50%;
+  }
+
+  .infoBox {
+    min-height: 5vh;
+    font-size: 50px;
+    padding: 30% 0 0 10%;
+  }
+
+  .buttonBox {
+    display: flex;
+    justify-content: center;
+  }
+
+
+  /* .rightLanding {
+    border: red 2px solid;
+    width: 40%;
+    mask-image: linear-gradient(to left, rgba(0, 0, 0, 1.0) 60%, transparent 100%);
+  } */
+
+  .rightLanding > img{
+    border: green solid 2px;
+    height: 100%;
+    object-fit: fill;
+    mask-image: linear-gradient(to left, rgba(0, 0, 0, 1.0) 60%, transparent 100%);
+  }
+  
+}
+
+
+
+
+@media screen and (width: 550px) {
+  .Landing {
+    border: 4px red solid;
+    min-height: 40vh;
+    /* max-width: 100%; */
+    display: flex;
+  }
+}

@@ -1,0 +1,68 @@
+/* * {
+  font-family: 'Source Sans Pro', sans-serif;
+} */
+
+h1{
+  margin-top: 5vh;
+}
+
+.Navbar {
+  font-family: 'Source Sans Pro', sans-serif;
+  z-index: 1;
+  display: flex;
+  max-height: 5vh;
+  position: sticky;
+  justify-content: space-around;
+  background-color: rgb(231, 228, 228);
+  top: 0;
+}
+
+.mainOptions {
+  border: solid 2px green;
+  display: flex;
+  justify-content: space-between;
+  width: 40%;
+  /* padding: 0 5% 0 5%; */
+  align-items: center;
+}
+
+.Navbar-options {
+  border: solid 2px blue;
+  min-height: 3vh;
+  font-weight: 300;
+  display: flex;
+  font-size: calc(2px + 2vmin);
+}
+
+.logo {
+  border: solid 2px blue;
+  max-width: 30px;
+  max-height: 30px;
+  margin: 0.5%;
+  border-radius: 50%;
+}
+
+.rightSide {
+  border: solid 2px red;
+  display: flex;
+  align-items: center;
+}
+
+.button {
+  border: solid 2px goldenrod;
+}
+
+
+
+a:link{
+  text-decoration: none;
+  color: black;
+}
+
+a:visited{
+  color: black;
+}
+
+a:hover {
+  text-decoration: underline;
+}
