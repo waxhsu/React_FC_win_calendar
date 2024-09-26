@@ -2,32 +2,265 @@
   /* text-align: center; */
 }
 
-.header{
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+p, li {
+  font-family: "Source Sans Pro", "Open Sans", "Helvetica Neue", Helvetica,
+    Arial, sans-serif;
+  font-size: 25px;
+  line-height: 1.5;
+}
+
+*/ ul, ol {
+  /* display: block; */
+  margin-block-start: 0em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 50px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Source Sans Pro", "Open Sans", "Helvetica Neue", Helvetica,
+    Arial, sans-serif;
+  font-weight: 600;
+  line-height: 1.1;
+}
+
+h1 {
+  font-size: 2.5em;
+  padding-bottom: 20px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+h2 {
+  font-size: 2em;
+  padding-bottom: 10px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+h3 {
+  font-size: 1.5em;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+h4 {
+  font-size: 1.2em;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+p {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+.text-white {
+  color: white
+}
+
+.text-center {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+.bg-lightGray {
+ background-color: #f2f2f2;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+.img-placeholder {
+  width: 100%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+/* COLUMN SIZING */
+.column {
+  padding: 1em;
 }
 
-.App-link {
-  color: #61dafb;
+.basis30 {
+  width: 30%;
+}
+
+.basis70 {
+  width: 70%;
+}
+
+/* CONTAINER SIZING */
+.container-cc {
+  width: 85%;
+  max-width: 66em;
+  margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* PADDING PLACEMENT */
+.px-1 {
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.px-2 {
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+.px-3 {
+  padding-left: 3em;
+  padding-right: 3em;
+}
+
+.px-4 {
+  padding-left: 4em;
+  padding-right: 4em;
+}
+
+.px-5 {
+  padding-left: 5em;
+  padding-right: 5em;
+}
+
+.py-1 {
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.py-2 {
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+.py-3 {
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+
+.py-4 {
+  padding-top: 4em;
+  padding-bottom: 4em;
+}
+
+.py-5 {
+  padding-top: 5em;
+  padding-bottom: 5em;
+}
+
+.pt-1 {
+  padding-top: 1em;
+}
+
+.pt-2 {
+  padding-top: 2em;
+}
+
+.pt-3 {
+  padding-top: 3em;
+}
+
+.pt-4 {
+  padding-top: 4em;
+}
+
+.pt-5 {
+  padding-top: 5em;
+}
+
+.pb-1 {
+  padding-bottom: 1em;
+}
+
+.pb-2 {
+  padding-bottom: 2em;
+}
+
+.pb-3 {
+  padding-bottom: 3em;
+}
+
+.pb-4 {
+  padding-bottom: 4em;
+}
+
+.pb-5 {
+  padding-bottom: 5em;
+}
+
+.pl-1 {
+  padding-left: 1em;
+}
+
+.pl-2 {
+  padding-left: 2em;
+}
+
+.pl-3 {
+  padding-left: 3em;
+}
+
+.pl-4 {
+  padding-left: 4em;
+}
+
+.pl-5 {
+  padding-left: 5em;
+}
+
+.pr-1 {
+  padding-right: 1em;
+}
+
+.pr-2 {
+  padding-right: 2em;
+}
+
+.pr-3 {
+  padding-right: 3em;
+}
+
+.pr-4 {
+  padding-right: 4em;
+}
+
+.pr-5 {
+  padding-right: 5em;
 }
