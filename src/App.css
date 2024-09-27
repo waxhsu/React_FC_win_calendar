@@ -76,6 +76,10 @@ p {
   text-align: center;
 }
 
+/* BACKGROUND COLORS */
+.bg-white {
+  background-color: #ffffff;
+}
 
 .bg-lightGray {
  background-color: #f2f2f2;
@@ -92,12 +96,20 @@ p {
   padding: 1em;
 }
 
+.basis10 {
+  width: 10%;
+}
+
 .basis30 {
   width: 30%;
 }
 
 .basis70 {
   width: 70%;
+}
+
+.basis90 {
+  width: 90%;
 }
 
 /* CONTAINER SIZING */
@@ -111,11 +123,16 @@ p {
 
 
 
+.img-icon {
+  max-width: 100%;
+  display: block;
+}
 
 
-
-
-
+/* FLEXBOX STUFF */
+.flex {
+  display: flex;
+}
 
 
 
