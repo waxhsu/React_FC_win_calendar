@@ -1,11 +1,11 @@
 import './Footer.css';
-import {FOOTER_company, FOOTER_customerCare, FOOTER_account, FOOTER_socials, FOOTER_payment} from '../../const.js';
+// import {FOOTER_company, FOOTER_customerCare, FOOTER_account, FOOTER_socials, FOOTER_payment} from '../../const.js';
 
 function Footer() {
     return (
         <div className="Footer">
 
-        <div className='sectionContainer'>
+        {/* <div className='sectionContainer'>
             <div className="section1">
                 <h4>Customer Care</h4>
                 {FOOTER_customerCare.map((customer) => {
@@ -74,7 +74,7 @@ function Footer() {
                     );
                 })}
             </div>
-        </div>
+        </div> */}
         
         </div>
     );

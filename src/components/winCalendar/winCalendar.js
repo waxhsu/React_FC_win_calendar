@@ -32,7 +32,7 @@ function WinCalendar() {
   }, []);
 
   return (
-    <div className="winCalendar">
+    <div className="winCalendar ">
       <div id="calendar"></div>
     </div>
   );

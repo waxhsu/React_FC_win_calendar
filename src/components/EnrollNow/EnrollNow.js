@@ -3,9 +3,12 @@ import NextCohortStarts from '../NextCohortStarts/NextCohortStarts.js'
 
 function EnrollNow(){
   return (
-    <div id='EnrollNow'>
+    <div id='EnrollNow' className='bg-black py-3'>
         <NextCohortStarts />
-       ENROLL NOW
+
+        <div class="text-center">
+              <a class="cta btn btn-custom" href="#pricing">ENROLL NOW</a>
+        </div>
     </div>
     
 )

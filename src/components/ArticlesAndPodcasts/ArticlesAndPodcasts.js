@@ -7,8 +7,8 @@ import BooksImage from '../../images/books.png';
 function ArticlesAndPodcasts(){
   return (
     <div id='ArticlesAndPodcasts'>
-        <div className='ArticlesAndPodcastsFormat container-cc py-1'>
-            <h1>
+        <div className='ArticlesAndPodcastsFormat container-cc py-2'>
+            <h1 className='font-mogan'>
                 What if you could convince your toughest stakeholders that your work will drive innovation?
             </h1>
         </div>
@@ -66,7 +66,7 @@ function ArticlesAndPodcasts(){
 
 
 
-        <div className='container-cc'>
+        <div className='container-cc pb-4'>
             <p>
                 You’ve done your best to solve your complete puzzle by pulling all the
                 pieces together. It’s hard. Especially when every suggestion still

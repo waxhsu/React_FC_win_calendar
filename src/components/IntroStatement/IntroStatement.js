@@ -43,8 +43,9 @@ function IntroStatement(){
                 </h2>
               </div>
             </div>
+        </div>
 
-        <div id='introStatementB' className='bg-lightGray' >
+        <div id='introStatementC' className='bg-lightGray' >
           <div className='introStatementFormat container-cc py-1'>
             <div className='column basis70'>
               <p className='py-1'>
@@ -64,7 +65,7 @@ function IntroStatement(){
         </div>
         
       </div>
-    </div>
+    
     
   )
 }

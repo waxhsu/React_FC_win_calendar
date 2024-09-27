@@ -8,7 +8,7 @@ import TimeToBegin from './components/TimeToBegin/TimeToBegin.js'
 import EnrollNow from './components/EnrollNow/EnrollNow.js'
 import EightPillars from './components/EightPillars/EightPillars.js'
 import Testimonials1 from './components/Testimonials1/Testimonials1.js'
-import WinCalendar from './components/winCalendar/winCalendar.js'
+import TimeCommitment from './components/TimeCommitment/TimeCommitment.js'
 import Testimonials2 from './components/Testimonials2/Testimonials2.js'
 import AboutUs from './components/AboutUs/AboutUs.js'
 import EnrollOptions from './components/EnrollOptions/EnrollOptions.js'
@@ -31,7 +31,7 @@ function App() {
 
 
 
-      <WinCalendar />
+      <TimeCommitment />
 
 
       <EnrollNow />
