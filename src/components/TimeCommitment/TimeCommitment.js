@@ -24,9 +24,13 @@ function TimeCommitment(){
       </p>
       </div>
 
+      <h1 class="text-center font-mogan column">
+        Our September Cohort Schedule
+      </h1>
+
       <WinCalendar />
 
-      <h1 class="column font-mogan">
+      <h1 class="pt-1 font-mogan">
       Time Commitment and Program Schedule
       </h1>
 

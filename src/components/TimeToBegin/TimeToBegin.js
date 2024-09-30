@@ -5,9 +5,9 @@ function TimeToBegin() {
   return (
     <div id='TimeToBegin' className='flex flex-direction-column'>
        <div className='container-cc text-center column border-sandwich'>
-        <h1 className='font-mogan'>It's time to begin your real career...</h1>
-        <h1 className='font-mogan'>Our job as UX Leaders isn't to deliver design.</h1>
-        <h1 className='font-mogan'>Our job is to influence decisions.</h1>
+        <h1 className=''>It's time to begin your real career...</h1>
+        <h1 className=''>Our job as UX Leaders isn't to deliver design.</h1>
+        <h1 className=''>Our job is to influence decisions.</h1>
        </div>
 
        <div className='container-cc column pb-4'>

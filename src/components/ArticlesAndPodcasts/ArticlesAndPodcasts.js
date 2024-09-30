@@ -1,13 +1,11 @@
 import './ArticlesAndPodcasts.css';
-import ArticlesImage from '../../images/articles.png';
-import PodcastImage from '../../images/podcasts.png';
-import PresentationsImage from '../../images/presentations.png';
-import BooksImage from '../../images/books.png';
+import { ARTICLES_AND_PODCASTS } from '../../const';
+
 
 function ArticlesAndPodcasts(){
   return (
     <div id='ArticlesAndPodcasts'>
-        <div className='ArticlesAndPodcastsFormat container-cc py-2'>
+        <div className='ArticlesAndPodcastsFormat container-cc py-2 text-center'>
             <h1 className='font-mogan'>
                 What if you could convince your toughest stakeholders that your work will drive innovation?
             </h1>
@@ -23,50 +21,24 @@ function ArticlesAndPodcasts(){
 
 
         <div>
-            <div class="container-cc flex">
-                <div class="column basis10">
-                    <img src={ArticlesImage} class="img-icon" />
-                </div>
+            {ARTICLES_AND_PODCASTS.map((rows) => {
+                return (
+                <div className="container-cc flex">
+                    <div className="column basis10">
+                        <img src={rows.src} className="img-resp" />
+                    </div>
 
-                <div class="bg-white column basis90">
-                    <h2 class="pl-1">You’ve skimmed hundreds of articles.</h2>
+                    <div class="bg-white column basis90">
+                        <h2 className="pl-1">{rows.desc}</h2>
+                    </div>
                 </div>
-            </div>
-
-            <div class="container-cc flex">
-                <div class="column basis10">
-                    <img src={PodcastImage} class="img-icon" />
-                </div>
-
-                <div class="bg-white column basis90">
-                    <h2 class="pl-1">You’ve listened to dozens of podcasts.</h2>
-                </div>
-            </div>
-
-            <div class="container-cc flex">
-                <div class="column basis10">
-                    <img src={PresentationsImage} class="img-icon" />
-                </div>
-
-                <div class="bg-white column basis90">
-                    <h2 class="pl-1">You’ve watched the leadership conference presentations.</h2>
-                </div>
-            </div>
-
-            <div class="container-cc flex">
-                <div class="column basis10">
-                    <img src={BooksImage} class="img-icon" />
-                </div>
-
-                <div class="bg-white column basis90">
-                    <h2 class="pl-1">You’ve read so many books.</h2>
-                </div>
-            </div>
+                );
+            })}
         </div>
 
 
 
-        <div className='container-cc pb-4'>
+        <div className='container-cc py-2 pb-4'>
             <p>
                 You’ve done your best to solve your complete puzzle by pulling all the
                 pieces together. It’s hard. Especially when every suggestion still

@@ -2,6 +2,8 @@ import './Testimonials1.css';
 import OpenQuotation from '../../images/quotes.png'
 import TestimonialHeart from '../../images/testimonial-heart.png';
 import TestimonialStar from '../../images/testimonial-star.png';
+import { TESTIMONIES } from '../../const.js'
+
 
 function Testimonials1(){
   return (
@@ -14,13 +16,11 @@ function Testimonials1(){
             <div className="testimonial-title">
               <h2>
                 <img className='quote' src={OpenQuotation} />
-                 J.D., A Senior Digital UX Leader in a B2C Software:
+                 {TESTIMONIES[0].title}:
               </h2>
             </div>
             <p>
-              <em>I picked up invaluable tips for reframing my mindset when
-                collaborating with my partners. I discovered whom to influence
-                and measure my impact and outcomes.</em>
+              <em>{TESTIMONIES[0].desc}</em>
             </p>
           </div>
         </div>
@@ -32,14 +32,11 @@ function Testimonials1(){
             <div className="testimonial-title">
               <h2>
                 <img className='quote' src={OpenQuotation} />
-                S.P., UX Designer and Researcher in Insurance Solutions:
+                {TESTIMONIES[1].title}:
               </h2>
             </div>
             <p>
-              <em>This program gave me the tools and advice I need to be a better
-                listener, ask better questions in meetings, and get better
-                results in conversations with my stakeholders.
-              </em>
+              <em>{TESTIMONIES[1].desc}</em>
             </p>
           </div>
         </div>

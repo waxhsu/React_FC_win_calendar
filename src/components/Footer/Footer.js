@@ -1,80 +1,36 @@
 import './Footer.css';
-// import {FOOTER_company, FOOTER_customerCare, FOOTER_account, FOOTER_socials, FOOTER_payment} from '../../const.js';
+import LogoWhite from '../../images/CC-UIE-white-logo.png';
+import { FOOTER } from '../../const.js'
 
 function Footer() {
     return (
-        <div className="Footer">
-
-        {/* <div className='sectionContainer'>
-            <div className="section1">
-                <h4>Customer Care</h4>
-                {FOOTER_customerCare.map((customer) => {
-                    return (
-                            <a className='footerNav' href={customer.link}>
-                            {customer.name}
-                            </a>
-                    );
-                })}
-            </div>
-
-
-
-            <div className="section2">
-                <h4>About AVRG</h4>
-                {FOOTER_company.map((company) => {
-                    return (
-                            <a className='footerNav' href={company.link}>
-                            {company.name}
-                            </a>
-                    );
-                })}
-            </div>
-
-
-
-            <div className="section3">
-                <h4>My Account</h4>
-                {FOOTER_account.map((account) => {
-                    return (
-                            <a className='footerNav' href={account.link}>
-                            {account.name}
-                            </a>
-                    );
-                })}
-            </div>
-
-
-            <div className='section4'>
-                <h4>Subscribe to us</h4>
-                <input type="text" name="" value="Email address" />
-                <button type="button" name="button">SUBSCRIBE</button>
-                <div className='social_links'>
-                    {FOOTER_socials.map((socials) => {
-                    return (
-                            <a className='footerNav' href={socials.link}>
-                            <img className='social_icons' src={socials.src} alt='' />
-                            </a>
-                    );
-                    })}
+        <div id="Footer" className='bg-black py-2 px-3 flex-direction-column'>
+            <div id='mainFooter' className='img-resp flex centercenter py-3'>
+                <div className='pr-2 ft-logo basis30'>
+                    <img src={LogoWhite} className='img-resp' />
                 </div>
+
+                <div className='pr-2 text-white flex-direction-column basis40'>
+                    <p>{FOOTER[0].address1}</p>
+                    <p>{FOOTER[0].address2}</p>
+                    <p>{FOOTER[0].phoneNumber}</p>
+                </div>
+
+                <div className='text-white basis30'>
+                    <p>Center Centre is proud to provide you the expertise you need to
+                    deliver better products and services.
+                    </p>
+                </div>
+                
             </div>
-        </div>
-        
-        <div className='section5'>
-            <div>© 1992 AVRG. All Rights Reserved.</div>
-            <div className='paymentOptions'>
-                {FOOTER_payment.map((payment) => {
-                    return (
-                        <div>
-                            <a href={payment.link}>
-                            <img className='payment_icons' src={payment.src} alt='' />
-                            </a>
-                        </div>
-                        
-                    );
-                })}
+
+            <div id='subFooter' className='border-top flex-space-between text-white pt-2'>
+                <span>Copyright {FOOTER[0].year} Center Centre Inc. All rights reserved.</span>
+                <span>Questions or comments? <a href={FOOTER[0].contactUs}>Contact us.</a></span>
+                <span><a href={FOOTER[0].privacyNotice} className='footerLink'>Privacy Notice</a></span>
+
             </div>
-        </div> */}
+
         
         </div>
     );

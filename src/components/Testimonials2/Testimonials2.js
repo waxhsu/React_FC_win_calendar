@@ -2,6 +2,7 @@ import './Testimonials2.css';
 import OpenQuotation from '../../images/quotes.png'
 import TestimonialHeart from '../../images/testimonial-heart.png';
 import TestimonialThumbUp from '../../images/testimonial-thumb-up.png';
+import { TESTIMONIES } from '../../const.js'
 
 function Testimonials2(){
   return (
@@ -14,14 +15,11 @@ function Testimonials2(){
             <div className="testimonial-title">
               <h2>
                 <img className='quote' src={OpenQuotation} />
-                C.M., Senior UX Designer in Digital Media Software:
+                {TESTIMONIES[2].title}::
               </h2>
             </div>
             <p>
-              <em>This program transformed my discussions with my team. I now
-              stop negative assumptions and see the full picture of what my
-              team is working on. Allowing for better connections and
-              support.</em>
+              <em>{TESTIMONIES[2].desc}:</em>
             </p>
           </div>
         </div>
@@ -33,15 +31,11 @@ function Testimonials2(){
             <div className="testimonial-title">
               <h2>
                 <img className='quote' src={OpenQuotation} />
-                J.C., UX Design Manager at a B2C Home service:
+                {TESTIMONIES[3].title}:
               </h2>
             </div>
             <p>
-              <em>This program taught me that success is a result of the positive
-              change you make in the world. The focus on servant leadership
-              and the actionable pillars helped me to practice climbing a
-              ladder to achieve real-life wins.
-              </em>
+              <em>{TESTIMONIES[3].desc}:</em>
             </p>
           </div>
         </div>

@@ -11,8 +11,8 @@ import Testimonials1 from './components/Testimonials1/Testimonials1.js'
 import TimeCommitment from './components/TimeCommitment/TimeCommitment.js'
 import Testimonials2 from './components/Testimonials2/Testimonials2.js'
 import AboutUs from './components/AboutUs/AboutUs.js'
-import EnrollOptions from './components/EnrollOptions/EnrollOptions.js'
-import OnTheFence from './components/OnTheFence/OnTheFence.js'
+import Pricing from './components/Pricing/Pricing.js'
+import RecordingTestimonial from './components/RecordingTestimonial/RecordingTestimonial.js'
 import Footer from './components/Footer/Footer.js'
 
 function App() {
@@ -25,26 +25,16 @@ function App() {
       <TimeToBegin />
       {/* <NextCohortStarts /> */}
       <EnrollNow />
-
       <EightPillars />
       <Testimonials1 />
-
-
-
       <TimeCommitment />
-
-
       <EnrollNow />
       <Testimonials2 />
       <AboutUs />
       <EnrollNow />
-
-      <EnrollOptions />
-      <OnTheFence />
-
-
+      <Pricing />
+      <RecordingTestimonial />
       <Footer />
-
     </div>
   );
 }
