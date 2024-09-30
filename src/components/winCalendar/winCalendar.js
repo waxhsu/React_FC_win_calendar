@@ -26,7 +26,7 @@ function WinCalendar() {
             left: 'prev',
             center: 'title',
             // right: 'listYear dayGridMonth'
-            right: 'next',
+            right: 'next listYear dayGridMonth',
         },
 
         titleFormat: () => {
@@ -37,6 +37,8 @@ function WinCalendar() {
             start: '2024-01-01', 
             end: '2025-01-01'
         },
+
+        
 
         googleCalendarApiKey: googleCalendarApiKey,
         eventSources: [
@@ -57,6 +59,7 @@ function WinCalendar() {
                 className: 'September Cohort',
             },
         ],
+        eventColor: 'red',
 
     });
     

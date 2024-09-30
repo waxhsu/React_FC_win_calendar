@@ -72,11 +72,11 @@ function Pricing(){
 
 
     <div id='PurchasePlans'>
-    <h1 class="font-mogan mogine-mobile-30">Your next step to winning stakeholders & influencing decisions…</h1>
-        <div class="flex">
-          <div class="bg-white column basis50">
-            <img class="img-resp" src={WinSoloSignUp2x} />
-            <div class="bg-lightGray px-2 py-1 pb-2">
+    <h1 className="font-mogan mogine-mobile-30">Your next step to winning stakeholders & influencing decisions…</h1>
+        <div className="flex">
+          <div className="bg-white column basis50">
+            <img className="img-resp" src={WinSoloSignUp2x} />
+            <div className="bg-lightGray px-2 py-1 pb-2">
               <h2>Enroll as a Solo UX Leader</h2>
               <p>If you’re a UX leader or someone ready to jump into UX leadership, this program is for you. You’ll get
                 the full
@@ -85,8 +85,8 @@ function Pricing(){
               <p>You can pay <b>{PAYMENT_PLAN[0].monthlyPrice}/month</b> for 4 months.</p>
               <p>Or you can <b>save {PAYMENT_PLAN[0].monthlyPrice}</b> with <b>a one-time payment of {PAYMENT_PLAN[0].oneTimePrice}</b>.</p>
 
-              <div class="centercenter pt-2 pb-1 mobile-padding">
-                <a class="btn btn-custom btn-fill btn-shadow"
+              <div className="centercenter pt-2 pb-1 mobile-padding">
+                <a className="btn btn-custom btn-fill btn-shadow"
                   href={PAYMENT_PLAN[0].enrollLink}>Enroll as an Individual</a>
               </div>
             </div>
@@ -94,9 +94,9 @@ function Pricing(){
           </div>
           
 
-          <div class="bg-white column basis50">
-            <img class="img-resp" src={WinTeamSignUp2x} />
-            <div class="bg-lightGray px-2 py-1 pb-2">
+          <div className="bg-white column basis50">
+            <img className="img-resp" src={WinTeamSignUp2x} />
+            <div className="bg-lightGray px-2 py-1 pb-2">
               <h2>Enroll as a Team of 2 or More (save per person)</h2>
 
               <p>When members of your UX team learn these skills and techniques together, the entire team becomes a more
@@ -108,8 +108,8 @@ function Pricing(){
               <p>Or you can <b>save {PAYMENT_PLAN[1].monthlyPrice}</b> when you pay <b>a one-time payment of {PAYMENT_PLAN[1].oneTimePrice}</b>.</p>
 
 
-              <div class="centercenter pt-1 pb-1 mobile-padding">
-                <a class="btn btn-customPink btn-fill btn-shadow"
+              <div className="centercenter pt-1 pb-1 mobile-padding">
+                <a className="btn btn-customPink btn-fill btn-shadow"
                   href={PAYMENT_PLAN[1].enrollLink}>Enroll as a Team Member</a>
               </div>
 

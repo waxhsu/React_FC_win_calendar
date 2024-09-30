@@ -15,7 +15,7 @@ function IntroStatement(){
             <div className='column basis30'>
               <img 
                 src={INTRO_STATEMENT[0].src} 
-                class="img-resp"
+                className="img-resp"
                 alt={INTRO_STATEMENT[0].alt} />
             </div>
           </div>
@@ -28,7 +28,7 @@ function IntroStatement(){
               <div className='column basis30'>
                 <img 
                   src={INTRO_STATEMENT[1].src} 
-                  class="img-placeholder"
+                  className="img-placeholder"
                   alt={INTRO_STATEMENT[1].alt}  />
               </div>
               <div className='column basis70'>
@@ -50,7 +50,7 @@ function IntroStatement(){
             <div className='column basis30'>
               <img 
                 src={INTRO_STATEMENT[2].src} 
-                class="img-resp"
+                className="img-resp"
                 alt={INTRO_STATEMENT[2].alt} />
             </div>
           </div>

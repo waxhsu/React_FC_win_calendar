@@ -12,8 +12,8 @@ function AboutUs(){
         </h1>
       </div>
 
-      <div class="container-cc flex">
-        <div class="column basis60">
+      <div className="container-cc flex">
+        <div className="column basis60">
           <p>
             Everything you learn in this 16-week program comes directly from Leslie and Jared's experience. They’ve been
             working for decades across industries, discovering the best practices of successful UX leaders.
@@ -27,17 +27,17 @@ function AboutUs(){
             “how does she know my stakeholders are exactly like that?”
           </p>
         </div>
-        <div class="column basis40">
-          <img src={MeetLeslie} class="img-placeholder" alt="Dr. Leslie Jensen-Inman and Jared Spool" />
+        <div className="column basis40">
+          <img src={MeetLeslie} className="img-placeholder" alt="Dr. Leslie Jensen-Inman and Jared Spool" />
         </div>
       </div>
 
 
-      <div class="container-cc flex">
-        <div class="column basis40">
-          <img src={MeetJared} class="img-placeholder" alt="Dr. Leslie Jensen-Inman and Jared Spool" />
+      <div className="container-cc flex">
+        <div className="column basis40">
+          <img src={MeetJared} className="img-placeholder" alt="Dr. Leslie Jensen-Inman and Jared Spool" />
         </div>
-        <div class="column basis60">
+        <div className="column basis60">
           <p>
             Everything you learn in this 16-week program comes directly from Leslie and Jared's experience. They’ve been
             working for decades across industries, discovering the best practices of successful UX leaders.
@@ -54,13 +54,7 @@ function AboutUs(){
 
       </div>
 
-
-
-
-
-
-
-      </div>
+    </div>
     
 )
 }

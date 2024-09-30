@@ -6,8 +6,8 @@ function EnrollNow(){
     <div id='EnrollNow' className='bg-black py-4'>
         <NextCohortStarts />
 
-        <div class="text-center">
-              <a class="cta btn btn-custom" href="#PurchasePlans">ENROLL NOW</a>
+        <div className="text-center">
+              <a className="cta btn btn-custom" href="#PurchasePlans">ENROLL NOW</a>
         </div>
     </div>
     

@@ -7,7 +7,7 @@ function EightPillars() {
     <div id='EightPillars' className="container-cc">
       <div className='pb-4 pt-2'>
         <h1 className='font-mogan py-1'>The 8 Pillars of Stakeholder Influence</h1>
-          <div class="">
+          <div className="">
             <p>
               Every UX leader reaches a point where their work needs to shift.
               Creating great designs and conducting meaningful UX research isn’t
@@ -42,7 +42,7 @@ function EightPillars() {
               return (
                 <div className='container-cc py-1 flex'>
                   <div className='column centercenter'>
-                    <img src={pillars.src} class="img-pillar pr-2" alt={pillars.alt} />
+                    <img src={pillars.src} className="img-pillar pr-2" alt={pillars.alt} />
                   </div>
                   <div className=''>
                     <h2>{pillars.title}</h2>
@@ -55,7 +55,7 @@ function EightPillars() {
 
 
 
-      <div class="pb-4">
+      <div className="pb-4">
         <p>
           As you master the skills, tools, and mindsets of each pillar, you’ll
           immediately feel as if you’ve been released from the restraints that

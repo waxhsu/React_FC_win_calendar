@@ -28,7 +28,7 @@ function ArticlesAndPodcasts(){
                         <img src={rows.src} className="img-resp" />
                     </div>
 
-                    <div class="bg-white column basis90">
+                    <div className="bg-white column basis90">
                         <h2 className="pl-1">{rows.desc}</h2>
                     </div>
                 </div>

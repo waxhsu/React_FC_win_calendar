@@ -5,11 +5,11 @@ import WinCalendar from '../winCalendar/winCalendar.js'
 function TimeCommitment(){
   return (
     <div id='TimeCommitment' className='container-cc pb-4'>
-      <h1 class="column text-center font-mogan">
+      <h1 className="column text-center font-mogan">
         Our How to Win Stakeholders & Influence Decisions Program
       </h1>
 
-      <div class="column">
+      <div className="column">
       <p>
         We want you to get the support you need to attain a new level in your
         UX career.
@@ -24,13 +24,13 @@ function TimeCommitment(){
       </p>
       </div>
 
-      <h1 class="text-center font-mogan column">
+      <h1 className="text-center font-mogan column">
         Our September Cohort Schedule
       </h1>
 
       <WinCalendar />
 
-      <h1 class="pt-1 font-mogan">
+      <h1 className="pt-1 font-mogan">
       Time Commitment and Program Schedule
       </h1>
 
