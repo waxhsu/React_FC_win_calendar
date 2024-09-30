@@ -7,7 +7,7 @@ function EnrollNow(){
         <NextCohortStarts />
 
         <div className="text-center">
-              <a className="cta btn btn-custom" href="#PurchasePlans">ENROLL NOW</a>
+              <a className="btn btn-custom" href="#PurchasePlans">Enroll Now</a>
         </div>
     </div>
     

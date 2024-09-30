@@ -209,6 +209,15 @@ p {
 
 
 
+
+/* STARTING DATE */
+.startingDate {
+  background-color: black;
+  font-size: 32px;
+}
+
+
+
 /* FLEXBOX STUFF */
 .flex {
   display: flex;
@@ -307,7 +316,7 @@ p {
   font-weight: 600;
   text-transform: uppercase;
   text-align: center;
-  font-size: 1.125rem;
+  font-size: 1.5rem;
   padding: 0.8em 2em;
   background: var(--accent, black);
   -webkit-transition: opacity 250ms linear, -webkit-transform 250ms ease-in-out;
@@ -330,6 +339,11 @@ p {
 .btn-custom {
   color: var(--white);
   background-color: var(--custom);
+}
+
+.btn-customPink {
+  color: var(--white);
+  background-color: var(--pink);
 }
 
 .btn-custom:hover {
