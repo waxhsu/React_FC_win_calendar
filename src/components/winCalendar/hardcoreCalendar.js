@@ -23,6 +23,7 @@ function HardcoreCalendar () {
                 <div className='container-cc flex' key={index}>
                     <div id='scheduleCard'>
                         <div id='WeekNUM'>
+                            <div className='weekInfo'>Week {classInfo.weekNum} of 4</div>
                             {/* Odd Numbered Topic */}
                             <div id='oddTopicNumber' className='headerTitle' onClick={() => toggleDetails(index)}>
                                 {/* Add conditionally applied 'rotated' class */}

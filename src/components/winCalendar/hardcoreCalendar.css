@@ -8,6 +8,11 @@
     margin: 5px 0;
 }
 
+.weekInfo {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
 
 .headerTitle {
     display: flex;
