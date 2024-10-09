@@ -13,6 +13,8 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "animated-scroll-to": "^2.3.0",
+    "axios": "^1.7.7",
+    "node": "^20.18.0",
     "react": "^18.2.0",
     "react-animated-slider": "^1.1.4",
     "react-dom": "^18.2.0",

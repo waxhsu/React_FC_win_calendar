@@ -1,0 +1,85 @@
+#scheduleCard {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(235, 235, 235);
+    border-radius: 10px;
+    padding: 20px;
+    width: 100%;
+    margin: 5px 0;
+}
+
+
+.headerTitle {
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    background-color: white;  
+    padding-left: 10px;
+    font-size: 17px;
+    padding: 0.5em 0;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 7px;
+}
+
+
+.scheduleIconImg {
+    padding: 0 10px;
+    transition: transform 0.3s ease;
+}
+
+.scheduleIconImg.rotated {
+    transform: rotate(90deg); /* 90-degree rotation */
+  }
+
+.clickDetails {
+    font-weight: 400;
+    text-decoration: underline;
+}
+
+
+    
+.subTitle, .topicDetails {
+    padding: 15px 30px 15px;
+    display: flex;
+    border-radius: 10px;
+    background-color: white;  
+    font-weight: 700;
+    margin-bottom: 7px;
+}
+
+
+.topicDetails {
+    display: flex;
+    flex-direction: column;
+    padding: 15px 30px 25px;
+    
+}
+
+.optionDate {
+    font-weight: 500;
+    padding-right: 20px;
+}
+
+ul, li{
+    font-weight: 500;
+    line-height: 30px;
+    font-size: 17px;
+}
+
+ul {
+    padding-left: 15px;
+    margin: 0.5rem;
+}
+
+li {
+    padding-left: 4em;
+    text-indent: -1.5em; /* Adjust based on bullet size */
+    list-style-position: outside;
+    
+}
+
+
+
+
+/* in my object, I want topicDetails1_1, topicDetails1_2, and topicDetails1_3 to be a paragraph each */

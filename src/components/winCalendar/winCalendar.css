@@ -29,3 +29,64 @@
 .fc-list-event-dot {
   color: red;
 }
+
+/* App.css */
+.calendar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.calendar-day {
+  border: 1px solid #ccc;
+  padding: 16px;
+  width: 250px;
+  background-color: #f9f9f9;
+}
+
+.class-item {
+  margin-bottom: 8px;
+}
+
+.class-title {
+  font-weight: bold;
+  cursor: pointer;
+  padding: 8px;
+  background-color: #eee;
+  transition: background-color 0.3s ease;
+}
+
+.class-title:hover {
+  background-color: #ddd;
+}
+
+.class-details {
+  padding: 8px;
+  background-color: #f0f0f0;
+  margin-top: 8px;
+  border-left: 4px solid #0070f3;
+}
+
+
+
+
+
+.calendar {
+  padding: 20px;
+}
+
+.calendar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.calendar li {
+  border: 1px solid #ccc;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.calendar h3 {
+  margin: 0;
+}

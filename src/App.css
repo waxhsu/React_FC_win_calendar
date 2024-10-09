@@ -29,13 +29,13 @@
   font-family: "Montserrat", sans-serif;
 }
 
-p, li {
+/* p, li {
   font-family: "Source Sans Pro", "Open Sans", "Helvetica Neue", Helvetica,
     Arial, sans-serif;
   font-size: 25px;
   line-height: 1.5em;
   padding-bottom: 1em;
-}
+} */
 
 span {
   color: rgb(142, 142, 142);
@@ -795,4 +795,8 @@ p {
 /* FOOTER */
 .ft-logo {
   max-width: 340px;
+}
+
+.ft-p {
+  line-height: 0.25em;
 }
